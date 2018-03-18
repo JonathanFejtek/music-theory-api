@@ -65,7 +65,6 @@ class MultiMap{
 class MultiBiMap{
     constructor(){
         this.kToV = new MultiMap();
-        //this.vToK = new MultiMap();
     }
 
     put(key,value){

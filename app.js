@@ -69,3 +69,31 @@ app.listen(3000, () => console.log('Example app listening on port 3000!'));
 // let getResponseData = (req) =>{
 //   return url.parse(req.url, true).query;
 // }
+
+
+//------------ example call
+
+// import $ from "jquery";
+
+// $.ajax({
+//     method : "GET",
+//     url : "http://localhost:3000",
+//     data : {
+//         paramA : "pparam",
+//         msg : "fizz",
+//         chordType : "maj"
+//     }
+// }).then((res)=>{
+//     console.log(res);
+// })
+
+
+// $.ajax({
+//     method : "GET",
+//     url : "http://localhost:3000/notes",
+//     data : {
+//         noteName : "C# 7"
+//     }
+// }).then((res)=>{
+//     console.log(res);
+// })
